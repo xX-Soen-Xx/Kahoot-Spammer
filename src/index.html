@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <div class="has-background-black" style="-webkit-app-region: drag">
+    
+    <div style="-webkit-app-region: no-drag"
+      class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs"
+      id="close" aria-label="Fermer" tabindex="-1" role="button"><svg aria-hidden="false" width="12" height="12"
+        viewBox="0 0 12 12">
+        <polygon fill="currentColor" fill-rule="evenodd"
+          points="11 1.576 6.583 6 11 10.424 10.424 11 6 6.583 1.576 11 1 10.424 5.417 6 1 1.576 1.576 1 6 5.417 10.424 1">
+        </polygon>
+      </svg>
+    </div>
+
+    <div style="-webkit-app-region: no-drag"
+      class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs"
+      id="mini" aria-label="Minimiser" tabindex="-1" role="button"><svg aria-hidden="false" width="12" height="12"
+        viewBox="0 0 12 12">
+        <rect fill="currentColor" width="10" height="1" x="1" y="6"></rect>
+      </svg>
+    </div>
+
+  </div>
+
+  <meta charset="UTF-8">
+  <title>Spammer</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <script defer src="render.js"></script>
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+
+<body class="has-background-dark">
+  <div id="div1">
+    <h1 class="title is-6 has-text-light has-text-weight-semibold is-family-primary" id="title">Kahoot Spammer</h1>
+
+    <label for="id" class="has-text-light">Code de la salle : </label>
+    <input name="id" id="roomid" class="input is-small is-rounded" onfocus="this.value=''" placeholder="123 4567">
+    <br>
+
+    <label for="nom" class="has-text-light">Nom à spammer : </label>
+    <input name="nom" id="nom" class="input is-small is-rounded" placeholder="Nep Nep">
+    <br>
+
+
+    <label for="nb" class="has-text-light">Nombre de spam : </label>
+    <input name="nb" id="nb" class="input is-small is-rounded" placeholder="30">
+    <br>
+    <br>
+  </div>
+  <div>
+    <label class="checkbox has-text-light" id="chkbx">
+      <input type="checkbox" id="val">
+      Avec réponses ?
+    </label>
+    <h6 class="is-size-7 has-text-weight-light has-text-warning-dark" id="disc">(L'app doit rester ouverte)</h6>
+    <button id="send" class="button is-info is-outlined is-rounded">Spam</button>
+  </div>
+  <h6 class="is-size-7 has-text-weight-light" id="foot">©2021 Soen, Nep Nep</h6>
+</body>
+
+</html>
