@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.soen.spammer
+productName: Spammer
+copyright: ©2021 Soen
+win:
+  icon: icon.ico
+  target: portable
+electronVersion: 11.1.1
