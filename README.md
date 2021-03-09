@@ -7,7 +7,7 @@ Télécharger le repo avec le bouton "**Code**" en haut à droite puis "**Downlo
 
 Extraire le zip (sur le bureau pour l'exemple suivant)
 Ouvrir Windows **PowerShell** :
-> cd C:\Users\§env:UserName\Desktop\Kahoot-Spammer-main
+> cd C:\Users\$env:UserName\Desktop\Kahoot-Spammer-main
 >
 > npm install
 Puis ouvrir le dossier dans votre IDE
